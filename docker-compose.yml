@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   django:
-    build: ./django_project/
+    build: ./django_project/ 
     container_name: django
     command: > 
        sh -c "sleep 7 && python manage.py migrate &&
